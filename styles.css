@@ -1,0 +1,94 @@
+body {
+    background-color: #f0f8ff; /* Cor de fundo */
+    font-family: Arial, sans-serif;
+    color: #2c3e50; /* Cor do texto principal */
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Regra para a imagem principal, para não ficar gigante */
+#hobbies img {
+    display: block;
+    max-width: 500px; /* Define um tamanho máximo */
+    width: 100%;      /* Faz a imagem ser responsiva até o máximo */
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Estilos da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Borda da tabela */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db; /* Cor primária */
+    color: #ffffff;           /* Cor do texto claro */
+}
+
+/* Botão e mensagem */
+#interatividade {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#botaoMensagem {
+    background-color: #3498db; /* Cor primária */
+    color: #ffffff;           /* Cor do texto claro */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botaoMensagem:hover {
+    background-color: #2980b9; /* Cor primária mais escura */
+}
+
+#mensagem {
+    background-color: #d4edda; /* Fundo da mensagem de sucesso */
+    color: #155724;           /* Cor do texto de sucesso */
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+    max-width: 90%;
+    display: none; /* A mensagem começa escondida */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    color: #3498db; /* Cor primária */
+    text-decoration: none;
+    font-weight: bold;
+}
